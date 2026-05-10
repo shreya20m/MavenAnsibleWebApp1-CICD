@@ -12,5 +12,5 @@
       shell: /opt/tomcat/bin/shutdown.sh
       ignore_errors: yes
 
-   - name: Start Tomcat
-     shell: /opt/tomcat/bin/startup.sh
+    - name: Start Tomcat
+      shell: /opt/tomcat/bin/startup.sh
